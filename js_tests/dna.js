@@ -71,7 +71,7 @@ const returnRandBase = () => {
   
   the30();
   
-  // Create two instances of pAequorFactory
+  // Creaate two instances of pAequorFactory
   const aequor1 = pAequorFactory(1, mockUpStrand());
   //const aequor2 = pAequorFactory(2, mockUpStrand());
   const survability = aequor1._willLikelySurvive();
