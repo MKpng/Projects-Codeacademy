@@ -77,14 +77,13 @@ const returnRandBase = () => {
   const survability = aequor1._willLikelySurvive();
   console.log(`Chance of survival: ${survability}`);
   
-  // Use _compareDNA to compare their DNA
-  //const commonCount = aequor1._compareDNA(aequor2);
-  //console.log(`DNA in common: ${((commonCount / 15) * 100).toFixed(2)}%`);
+  /*Use _compareDNA to compare their DNA
+  const commonCount = aequor1._compareDNA(aequor2);
+  console.log(`DNA in common: ${((commonCount / 15) * 100).toFixed(2)}%`);
   
-  //const organism = pAequorFactory(1, mockUpStrand());
-  //console.log("ex1 = ", organism._dna.join(" "));
-  //const organism2 = pAequorFactory(1, mockUpStrand());
-  //console.log("ex2 = ", organism2._dna.join(" "));
-  //organism._mutate();
-  //console.log("Mutated DNA:", organism._dna.join(" "));
-  
+  const organism = pAequorFactory(1, mockUpStrand());
+  console.log("ex1 = ", organism._dna.join(" "));
+  const organism2 = pAequorFactory(1, mockUpStrand());
+  console.log("ex2 = ", organism2._dna.join(" "));
+  organism._mutate();
+  console.log("Mutated DNA:", organism._dna.join(" ")); */ 
